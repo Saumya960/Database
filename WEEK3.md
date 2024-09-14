@@ -39,7 +39,7 @@ select distinct co2_budget from game;
 ![Task9 - SS.PNG](Task9%20-%20SS.PNG)
 
 #Question10
-select screen_name, co2_budget, co2_consumed, co2_budget - co2_consumed as co2_left from game where screen_name = "Ilkka";
+select screen_name, co2_budget, co2_consumed, co2_budget-co2_consumed as co2_left from game where screen_name= "Ilkka";
 ![Task10 - SS.PNG](Task10%20-%20SS.PNG)
 
 
