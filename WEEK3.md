@@ -1,9 +1,9 @@
 #week3
-###Asignment1
+###Exercise2
 
 #Question1
 select * from goal;
-![Task1-SS.PNG](Task1-SS.PNG)
+![Ex2-Q1.PNG](Ex2-Q1.PNG)
 
 #Question2
 select name, type from airport where iso_country = "FI";
@@ -14,8 +14,7 @@ select name from airport where iso_country ="FI" order by name asc;
 ![Task3 - SS.PNG](Task3%20-%20SS.PNG)
 
 #Question4
-select name, type from airport  
-where iso_country = "FI" order by type asc, name asc;
+select name, type from airport where iso_country = "FI" order by type asc, name asc;
 ![Task4 - SS.PNG](Task4%20-%20SS.PNG)
 
 #Question5
@@ -44,7 +43,7 @@ select screen_name, co2_budget, co2_consumed, co2_budget-co2_consumed as co2_lef
 
 
 
-###Assignment2
+###Exercise3
 
 #Question1
 SELECT country.name AS "country name", airport.name AS "airport name"  
